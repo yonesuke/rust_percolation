@@ -3,13 +3,13 @@
 Rust binding of python implementation of percolation
 
 # Setting
-First, import this repository as a library.
+First, clone this repository.
 
 ```bash
 git clone git@github.com:yonesuke/rust_percolation.git
 ```
 
-Then, you can use this library as follows.
+Then, install this repo as follows.
 
 ```bash
 python -m pip install -e rust_percolation/
@@ -45,7 +45,7 @@ model.monte_carlo(1000) # [0.11, 0.28, ..., 0.15]
 ```
 
 # Comparison with python implementation
-The following is the comparison of the percolation probability of a lattice with size 10 and probability 0.7 between python and rust implementation.
+The following is the comparison of the percolation probability of a lattice with size 100 and probability 0.7 between python and rust implementation.
 Total Monte Carlo simulation is 1000 times.
 
 ```bash
