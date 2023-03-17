@@ -43,3 +43,16 @@ l, p = 10, 0.3
 model = Percolation(l, p)
 model.monte_carlo(1000) # [0.11, 0.28, ..., 0.15]
 ```
+
+# Comparison with python implementation
+The following is the comparison of the percolation probability of a lattice with size 10 and probability 0.7 between python and rust implementation.
+Total Monte Carlo simulation is 1000 times.
+
+```bash
+python examples/comparison.py
+```
+
+| Implementation | Mean | Std | Time |
+|:---:|:---:|:---:|:---:|
+| Python | 0.98628 | 0.00176 | 15.81442 seconds |
+| Rust | 0.98636 | 0.00169 | 0.38791 seconds |
