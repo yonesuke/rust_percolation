@@ -56,3 +56,12 @@ python examples/comparison.py
 |:---:|:---:|:---:|:---:|
 | Python | 0.98628 | 0.00176 | 15.81442 seconds |
 | Rust | 0.98636 | 0.00169 | 0.38791 seconds |
+
+# Plot
+
+```bash
+cd examples
+python plot.py
+```
+
+![plot](./examples/percolation.png)
