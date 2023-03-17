@@ -26,7 +26,7 @@ def run_rust(l, p, n_step):
 
 if __name__ == "__main__":
     l = 100
-    p = 0.5
+    p = 0.7
     n_step = 1000
     print(run_py(l, p, n_step))
     print(run_rust(l, p, n_step))
